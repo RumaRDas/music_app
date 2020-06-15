@@ -8,7 +8,6 @@ module.exports = {
            dialect:  process.env.DB_DIALECT || 'sqlite',
            host:  process.env.DB_HOST || 'localhost',
            storage: './musictracker.squlite'
-
        }
     }
 }
