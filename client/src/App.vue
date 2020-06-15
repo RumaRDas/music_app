@@ -1,13 +1,18 @@
 <template>
   <div id="app">
-
+<page-Header />
     <router-view/>
   </div>
 </template>
 
 <script>
+import PageHeader from '@/components/Header.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    PageHeader
+  }
+
 }
 </script>
 
@@ -19,5 +24,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.theme--light {
+ text-align: left;
+
 }
 </style>
