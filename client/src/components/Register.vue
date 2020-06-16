@@ -1,5 +1,5 @@
 <template>
- <v-container class="grey lighten-5">
+ <v-container class="cyan lighten-5">
 <v-row  class="mb-6" justify="center" no-gutters>
    <v-card class="elevation-16 mx-auto" width="40%">
  <v-flex >

@@ -1,7 +1,11 @@
 <template>
-  <v-toolbar fixed class="cyan" dark>
-    <v-toolbar-title class="mr-4">Music App</v-toolbar-title>
-  </v-toolbar>
+  <v-card
+    color="grey lighten-4" flat height="50px" tile>
+    <v-toolbar dense>
+
+      <v-toolbar-title>Musuc App</v-toolbar-title>
+    </v-toolbar>
+  </v-card>
 </template>
 
 <script>
