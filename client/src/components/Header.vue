@@ -12,7 +12,8 @@
       </v-toolbar-items>-->
       <v-spacer></v-spacer>
       <v-toolbar-items>
-        <v-btn flat @click="navigateTo({name: 'register'})">Sign Up</v-btn>
+         <v-btn  @click="navigateTo({name: 'login'})">Login</v-btn>
+        <v-btn  @click="navigateTo({name: 'register'})">Sign Up</v-btn>
       </v-toolbar-items>
     </v-toolbar>
   </v-card>
