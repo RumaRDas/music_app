@@ -1,7 +1,8 @@
 <template>
-
-<v-layout coloumn>
-     <v-flex xs6 offset-xs3>
+ <v-container class="grey lighten-5">
+<v-row  class="mb-6" justify="center" no-gutters>
+   <v-card class="elevation-16 mx-auto" width="40%">
+ <v-flex >
     <div class="white elevation-2">
 <v-toolbar flat dense color="cyan" dark>
 <v-toolbar-title>Register</v-toolbar-title>
@@ -16,7 +17,9 @@
 </div>
     </div>
   </v-flex>
-</v-layout>
+  </v-card>
+</v-row>
+ </v-container>
 
 </template>
 
