@@ -2,7 +2,7 @@
   <v-card color="grey lighten-4" flat height="50px" tile>
     <v-toolbar dense>
       <v-toolbar-title>
-        <span @click="navigateTo({name: 'root'})">Musuc App</span>
+        <span class="home" @click="navigateTo({name: 'root'})">Musuc App</span>
       </v-toolbar-title>
       <!-- <v-spacer></v-spacer>
     <v-toolbar-items>
@@ -21,12 +21,18 @@
 <script>
 export default {
   methods: {
-    navigateTo(route) {
-      this.$router.push(route);
+    navigateTo (route) {
+      this.$router.push(route)
     }
   }
-};
+}
 </script>
 
 <style scoped>
+.home{
+cursor: pointer;
+}
+.home:hover{
+  color: rgb(86, 84, 207);
+}
 </style>
